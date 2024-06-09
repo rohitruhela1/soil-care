@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="bus.css" />
+    <script src="bus.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5ad611b0dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/business/images/soil-care/logo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Our work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                                 
+            </li>
+            <i
+              class="fa-sharp fa-solid fa-circle-xmark"
+              onclick="closemenu()"
+            ></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <!-- <p>Web Deverloper</p> -->
+          <h1>Welcome to , <span>Soil Care</span><br /></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----abouter---------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/business/images/soil-care/about.jpeg" alt="" />
+            <img src="/business/images/soil-care/about2.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Us</h1>
+            <p>
+              Welcome to <b>soil care</b>, where innovation meets sustainability
+              to revolutionize farming practices and boost crop yields. We are a
+              dedicated team of third-year students with a passion for
+              agriculture and a vision to empower farmers through natural
+              farming methods.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Our Team
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Agriculture Scintist
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Branch</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>C.E.O.</span><br />Anany </li>
+                <li>
+                  <span>Team Member</span><br />Rohit 
+                </li>
+                <li>
+                  <span>Team Member</span><br />Arijit
+                </li>
+                <li>
+                    <span>Team Member</span><br />Akshit
+                  </li>
+                  <li>
+                    <span>Team Member</span><br />Aishwarya
+                  </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Crop Scientist</span><br />Dr. T. Venkatesan 
+                <li>
+                  <span>Agronomist</span><br />Norman Borlaug
+                </li>
+                <li>
+                  <span>Plant Pathologist</span><br />George C. Clerk
+                </li>
+                <li>
+                    <span>Micro biologist</span><br />Louis Pasteur
+                  </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>UI?UX</span><br />Designing Web/App interference</li>
+                <li>
+                  <span>Web Development</span><br />Designing Web/App
+                  interference
+                </li>
+                <li>
+                  <span>App Development</span><br />Designing Web/App
+                  interference
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services------------ -->
+    <div id="services">
+      <div id="container">
+        <h1 class="sub-title">Our services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Hybrid Planting</h2>
+            <p>
+                We introduce farmers to hybrid planting techniques that combine the best traits of different plant varieties. This approach enhances crop resilience, increases yield potential, and improves overall plant health.</p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>Crop Yield Optimization</h2>
+            <p>
+                Our team conducts extensive research to identify and implement strategies that maximize crop yields. We provide farmers with tailored advice and practical solutions to optimize their farming practices and achieve higher productivity.</p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>Suitable Fertilizers</h2>
+            <p>
+                We promote the use of suitable fertilizers that enhance soil health and boost crop growth. By recommending the right types and amounts of fertilizers, we help farmers achieve better results while maintaining sustainable farming practices.</p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            
+            <h2>Technological Integration</h2>
+            <p>
+                We leverage the power of technology to support farmers. From mobile apps that provide real-time farming advice to drones and sensors that monitor crop health, we ensure that farmers have access to the latest tools to make informed decisions and improve their yields.
+                
+                
+                <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------objectives -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Our Objectives</h1>
+        <div class="work-list">
+          <div class="work">
+            
+            <div class="layer">
+              <h3>Research and Understand the Needs of Farmers</h3>
+              <p>
+                Conduct surveys or
+                interviews with local farmers to understand their challenges and
+                needs. Focus on: Current farming practices. Soil health and
+                management. Water usage and irrigation methods. Pest and disease
+                management. Access to markets and financial resources.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            
+            <div class="layer">
+              <h3>Identify and Implement Natural Farming Practices</h3>
+              <p>
+                Research natural farming methods that can help increase crop yields. Some practices to consider:
+                
+                Crop Rotation: Helps prevent soil depletion and reduces pests and diseases.
+                Composting: Enhances soil fertility and structure.
+                Cover Cropping: Prevents soil erosion .
+                Biopesticides and Organic Fertilizers: Reduce dependency on chemical inputs.
+                </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Develop a Comprehensive Plan</h3>
+              <p>
+                Create a detailed plan that includes:
+                
+                Training Programs: Educate farmers on natural farming practices.
+                Demonstration Plots: Show the effectiveness of these practices.
+                Resource Provision: Provide necessary resources like organic fertilizers, seeds, and tools.
+                Monitoring and Support: Regularly monitor progress and offer ongoing support.</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <!-- -----------contact-------- -->
+    
+    <div id="contact">
+      <div id="container">
+        <div class="row row2">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p>
+              <i class="fa-regular fa-paper-plane"></i
+              >office@soilcare.ac.in
+            </p>
+            <p><i class="fa-solid fa-phone"></i>9009891000</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">T&C</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Thanks for visiting soil care<i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbze05Qo4j_FwDWWVZZSa7lvNjepjf1qUBfpRLO_EdMJjacpIAOVxi_iLp1YQdPz9rAhQQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
